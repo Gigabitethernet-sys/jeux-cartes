@@ -185,6 +185,5 @@ python Uno.py
 ```
 
 ## Auteur
-
-BTS SIO SISR - Première année  
+Elève de BTS SIO SISR - Première année  
 2025-2026
