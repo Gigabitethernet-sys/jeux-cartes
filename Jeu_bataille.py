@@ -30,7 +30,7 @@ while len(J1) > 0 and len(J2) > 0:
             print("2. Échanger ta première carte avec une carte aléatoire de ton paquet")
         print("3. Ne rien faire")
 
-        choix_pouvoir = input("Veux-tu utiliser un pouvoir ? (1/2/3) : ")
+        choix_pouvoir = input("Veux-tu utiliser un pouvoir ? (1/2/3/Non) : ")
 
         if choix_pouvoir == "1" and espion_J1:
             print(f"La prochaine carte de J2 est : {J2[0]}")
@@ -43,7 +43,7 @@ while len(J1) > 0 and len(J2) > 0:
                 print("Carte échangée !")
                 echange_J1 = False
                 print("Pouvoir échange utilisé !\n")
-        elif choix_pouvoir == "3":
+        else:
             print("Aucun pouvoir utilisé.\n")
 
 #Choix de la carte
@@ -58,7 +58,7 @@ while len(J1) > 0 and len(J2) > 0:
         print(f"Choisis entre 0 et {nb_cartes_affichees - 1} !")
         choix_carte = int(input(f"Quelle carte veux-tu jouer ? (0-{nb_cartes_affichees - 1}) : "))
 
-        carte1 = J1.pop(choix_carte)
+    carte1 = J1.pop(choix_carte)
 
     carte2 = J2[0]
     J2.pop(0)
