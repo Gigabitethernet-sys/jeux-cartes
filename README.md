@@ -184,6 +184,14 @@ python Blackjack.py
 python Uno.py
 ```
 
+## Utilisation de l'IA
+
+L'IA a pu être sollicitée dans quelques parties de ce projet pour :
+
+- Le débogage et la correction d'erreurs (indentation, erreur de frappeq...)
+- La structuration des idées
+- servir de guide pédagogique pour comprendre et apprendre certains concepts.
+
 ## Auteur
 Elève de BTS SIO SISR - Première année  
 2025-2026
