@@ -1,6 +1,6 @@
 # Jeux de Cartes en Python
 
-Projet réalisé dans le cadre du BTS SIO 1 SISR dans le cadre de la matière introduction au developpement.
+Projet réalisé dans le cadre du BTS SIO 1 SISR dans le cadre de la matière introduction au développement.
 
 ## Description
 
